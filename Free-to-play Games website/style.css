@@ -33,12 +33,12 @@ body{
     margin-left: 32vh;
     display: flex;
     width: 70%;
-    height: 4vh;
+    height: 9vh;
     padding: 1%;
 }
 
 #search-button{
-    font-size: large;
+    font-size: 3vh;
     background-color: #00afb9;
     border-radius: 5px;
     text-align: center;
@@ -48,7 +48,8 @@ body{
 #search-bar{
     border-radius: 5px;
     margin-left: 1%;
-    width: 90%
+    width: 90%;
+    font-size: 3vh;
 }
 
 #unremovable{
@@ -57,7 +58,7 @@ body{
 
 .sorting-btn{
     padding: 2%;
-    font-size: large;
+    font-size: 3vh;
     margin: 10px;
     background-color: #F77F00;
     max-width: 100%;
@@ -73,6 +74,7 @@ body{
     padding: 1%;
     border-radius: 30px;
     background-color: #EAE2B7;
+    font-size: 3vh;
 }
 
 table,th,td{
