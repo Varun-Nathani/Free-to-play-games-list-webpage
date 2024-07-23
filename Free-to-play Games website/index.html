@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel = "stylesheet">
+</head>
+<body>
+    <div class="title">
+        <h1>Welcome to FindF2P</h1>
+    </div>
+    <div class="button-container">
+        <button class="sorting-btn" id="relevance">Sort by Relevance</button>
+        <button class="sorting-btn" id="release-date">Sort by Release Date</button>
+        <button class="sorting-btn" id="alphabetical">Sort by Alphabetical Order</button>
+        <button class="sorting-btn" id="popularity">Sort by Popularity</button>
+    </div>
+
+    <div class="search-box">
+        <button id="search-button">Search</button>
+        <input type="text" id="search-bar" placeholder="Search by Genre or Platform (PC,Browser,All)">
+    </div>
+
+    <table class="list-box">
+        <tr id="unremovable">
+            <th class = "sr-no">Sr. No</th>
+            <th class="thumbnail"></th>
+            <th class = "name">Name</th>
+            <th class = "description">Description</th>
+        </tr>
+    </table>
+    <script src = "app.js"></script>
+</body>
+</html>
